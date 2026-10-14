@@ -373,7 +373,7 @@ export default function QBHome() {
                   <h3 className="text-xl font-black text-zinc-950 uppercase italic">Remos de Alto Rendimiento</h3>
                 </div>
 
-                {/* ===== NUEVO MODELO: V-DRIVE ALL CARBON ===== */}
+                {/* ===== MODELO: V-DRIVE ALL CARBON ===== */}
                 {(paddleFilter === 'todos' || paddleFilter === 'v-drive') && (
                   <div className="space-y-6 bg-zinc-50 border border-zinc-200 p-6 rounded-3xl shadow-sm">
                     <div className="flex justify-between items-start">
@@ -400,15 +400,15 @@ export default function QBHome() {
                     <div className="grid grid-cols-2 gap-4 bg-zinc-950 p-6 rounded-3xl shadow-xl border border-zinc-800">
                       <div className="flex flex-col items-center">
                         <span className="text-[9px] font-black uppercase tracking-widest text-red-400 mb-2 select-none">FRENTE</span>
-                        <div className="w-full max-w-[180px] aspect-[1/2] rounded-xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
-                          <img src="/vdrive-front.webp" alt="V-Drive All Carbon Frente" className="w-full h-full object-contain select-none" />
+                        <div className="w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
+                          <img src="/vdrive-front.webp" alt="V-Drive All Carbon Frente" className="w-full h-full object-contain select-none rounded-xl" />
                         </div>
                       </div>
 
                       <div className="flex flex-col items-center">
                         <span className="text-[9px] font-black uppercase tracking-widest text-red-400 mb-2 select-none">COMPLETO</span>
-                        <div className="w-full max-w-[180px] aspect-[1/2] rounded-xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
-                          <img src="/vdrive-back.webp" alt="V-Drive All Carbon Completo" className="w-full h-full object-contain select-none" />
+                        <div className="w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
+                          <img src="/vdrive-back.webp" alt="V-Drive All Carbon Completo" className="w-full h-full object-contain select-none rounded-xl" />
                         </div>
                       </div>
                     </div>
@@ -438,7 +438,7 @@ export default function QBHome() {
                   </div>
                 )}
 
-                {/* ===== MODELO 1: REMO T2 SERIES ===== */}
+                {/* ===== MODELO: REMO T2 SERIES ===== */}
                 {(paddleFilter === 'todos' || paddleFilter === 't2') && (
                   <div className="space-y-6 bg-zinc-50 border border-zinc-200 p-6 rounded-3xl shadow-sm">
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-3">
@@ -592,15 +592,15 @@ export default function QBHome() {
                         <div className="grid grid-cols-2 gap-4 bg-zinc-950 p-6 rounded-3xl shadow-xl border border-zinc-800">
                           <div className="flex flex-col items-center">
                             <span className="text-[9px] font-black uppercase tracking-widest text-sky-400 mb-2 select-none">FRENTE</span>
-                            <div className="w-full max-w-[180px] aspect-[1/2] rounded-xl overflow-hidden flex items-center justify-center">
-                              <img src="/t2-blue-front.png" alt="T2 Hex Flex Frente" className="w-full h-full object-contain select-none" />
+                            <div className="w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
+                              <img src="/t2-blue-front.png" alt="T2 Hex Flex Frente" className="w-full h-full object-contain select-none rounded-xl" />
                             </div>
                           </div>
 
                           <div className="flex flex-col items-center">
                             <span className="text-[9px] font-black uppercase tracking-widest text-sky-400 mb-2 select-none">DORSO</span>
-                            <div className="w-full max-w-[180px] aspect-[1/2] rounded-xl overflow-hidden flex items-center justify-center">
-                              <img src="/t2-blue-back.png" alt="T2 Hex Flex Dorso" className="w-full h-full object-contain select-none" />
+                            <div className="w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
+                              <img src="/t2-blue-back.png" alt="T2 Hex Flex Dorso" className="w-full h-full object-contain select-none rounded-xl" />
                             </div>
                           </div>
                         </div>
@@ -632,7 +632,7 @@ export default function QBHome() {
                   </div>
                 )}
 
-                {/* ===== MODELO 2: REMO UV ===== */}
+                {/* ===== MODELO: REMO UV ===== */}
                 {(paddleFilter === 'todos' || paddleFilter === 'uv') && (
                   <div className="space-y-6 bg-zinc-50 border border-zinc-200 p-6 rounded-3xl shadow-sm">
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-3">
@@ -702,8 +702,8 @@ export default function QBHome() {
                         <div className="grid grid-cols-2 gap-4 bg-zinc-950 p-6 rounded-3xl shadow-xl border border-zinc-800">
                           <div className="relative flex flex-col items-center">
                             <span className="text-[9px] font-black uppercase tracking-widest text-zinc-400 mb-2 select-none">FRENTE</span>
-                            <div className="relative w-full max-w-[180px] aspect-[1/2] rounded-xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-850 shadow-inner">
-                              <img src="/uv-front.png" alt="UV Frente" className="w-full h-full object-contain select-none animate-fade-in" />
+                            <div className="relative w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-850 shadow-inner">
+                              <img src="/uv-front.png" alt="UV Frente" className="w-full h-full object-contain select-none animate-fade-in rounded-xl" />
                               <button 
                                 onMouseEnter={() => setActiveUVHotspot(2)}
                                 onClick={() => setActiveUVHotspot(2)}
@@ -723,8 +723,8 @@ export default function QBHome() {
 
                           <div className="relative flex flex-col items-center">
                             <span className="text-[9px] font-black uppercase tracking-widest text-zinc-400 mb-2 select-none">DORSO</span>
-                            <div className="relative w-full max-w-[180px] aspect-[1/2] rounded-xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-850 shadow-inner animate-fade-in">
-                              <img src="/uv-back.png" alt="UV Dorso" className="w-full h-full object-contain select-none" />
+                            <div className="relative w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-850 shadow-inner animate-fade-in">
+                              <img src="/uv-back.png" alt="UV Dorso" className="w-full h-full object-contain select-none rounded-xl" />
                               <button 
                                 onMouseEnter={() => setActiveUVHotspot(3)}
                                 onClick={() => setActiveUVHotspot(3)}
@@ -771,15 +771,15 @@ export default function QBHome() {
                         <div className="grid grid-cols-2 gap-4 bg-zinc-950 p-6 rounded-3xl shadow-xl border border-zinc-800">
                           <div className="flex flex-col items-center">
                             <span className="text-[9px] font-black uppercase tracking-widest text-emerald-400 mb-2 select-none">FRENTE</span>
-                            <div className="w-full max-w-[180px] aspect-[1/2] rounded-xl overflow-hidden flex items-center justify-center">
-                              <img src="/uv-hex-front.webp" alt="UV Hex Flex Frente" className="w-full h-full object-contain select-none" />
+                            <div className="w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
+                              <img src="/uv-hex-front.webp" alt="UV Hex Flex Frente" className="w-full h-full object-contain select-none rounded-xl" />
                             </div>
                           </div>
 
                           <div className="flex flex-col items-center">
                             <span className="text-[9px] font-black uppercase tracking-widest text-emerald-400 mb-2 select-none">DORSO</span>
-                            <div className="w-full max-w-[180px] aspect-[1/2] rounded-xl overflow-hidden flex items-center justify-center">
-                              <img src="/uv-hex-back.webp" alt="UV Hex Flex Dorso" className="w-full h-full object-contain select-none" />
+                            <div className="w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
+                              <img src="/uv-hex-back.webp" alt="UV Hex Flex Dorso" className="w-full h-full object-contain select-none rounded-xl" />
                             </div>
                           </div>
                         </div>
@@ -811,7 +811,7 @@ export default function QBHome() {
                   </div>
                 )}
 
-                {/* ===== MODELO 3: FLYWEIGHT ALL CARBON ===== */}
+                {/* ===== MODELO: FLYWEIGHT ALL CARBON ===== */}
                 {(paddleFilter === 'todos' || paddleFilter === 'flyweight') && (
                   <div className="space-y-6 bg-zinc-50 border border-zinc-200 p-6 rounded-3xl shadow-sm">
                     <div className="flex justify-between items-start">
@@ -836,15 +836,15 @@ export default function QBHome() {
                     <div className="grid grid-cols-2 gap-4 bg-zinc-950 p-6 rounded-3xl shadow-xl border border-zinc-800">
                       <div className="flex flex-col items-center">
                         <span className="text-[9px] font-black uppercase tracking-widest text-emerald-400 mb-2 select-none">FRENTE</span>
-                        <div className="w-full max-w-[180px] aspect-[1/2] rounded-xl overflow-hidden flex items-center justify-center">
-                          <img src="/flyweight-front.webp" alt="Flyweight All Carbon Frente" className="w-full h-full object-contain select-none" />
+                        <div className="w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
+                          <img src="/flyweight-front.webp" alt="Flyweight All Carbon Frente" className="w-full h-full object-contain select-none rounded-xl" />
                         </div>
                       </div>
 
                       <div className="flex flex-col items-center">
                         <span className="text-[9px] font-black uppercase tracking-widest text-emerald-400 mb-2 select-none">DORSO</span>
-                        <div className="w-full max-w-[180px] aspect-[1/2] rounded-xl overflow-hidden flex items-center justify-center">
-                          <img src="/flyweight-back.webp" alt="Flyweight All Carbon Dorso" className="w-full h-full object-contain select-none" />
+                        <div className="w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
+                          <img src="/flyweight-back.webp" alt="Flyweight All Carbon Dorso" className="w-full h-full object-contain select-none rounded-xl" />
                         </div>
                       </div>
                     </div>
@@ -874,7 +874,7 @@ export default function QBHome() {
                   </div>
                 )}
 
-                {/* ===== MODELO 4: STINGRAY 72 ===== */}
+                {/* ===== MODELO: STINGRAY 72 ===== */}
                 {(paddleFilter === 'todos' || paddleFilter === 'stingray') && (
                   <div className="space-y-6 bg-zinc-50 border border-zinc-200 p-6 rounded-3xl shadow-sm">
                     <div className="flex justify-between items-start">
@@ -899,15 +899,15 @@ export default function QBHome() {
                     <div className="grid grid-cols-2 gap-4 bg-zinc-950 p-6 rounded-3xl shadow-xl border border-zinc-800">
                       <div className="flex flex-col items-center">
                         <span className="text-[9px] font-black uppercase tracking-widest text-cyan-400 mb-2 select-none">FRENTE</span>
-                        <div className="w-full max-w-[180px] aspect-[1/2] rounded-xl overflow-hidden flex items-center justify-center">
-                          <img src="/stingray-front.jpg" alt="Stingray 72 Frente" className="w-full h-full object-contain select-none" />
+                        <div className="w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
+                          <img src="/stingray-front.jpg" alt="Stingray 72 Frente" className="w-full h-full object-contain select-none rounded-xl" />
                         </div>
                       </div>
 
                       <div className="flex flex-col items-center">
                         <span className="text-[9px] font-black uppercase tracking-widest text-cyan-400 mb-2 select-none">DORSO</span>
-                        <div className="w-full max-w-[180px] aspect-[1/2] rounded-xl overflow-hidden flex items-center justify-center">
-                          <img src="/stingray-back.webp" alt="Stingray 72 Dorso" className="w-full h-full object-contain select-none" />
+                        <div className="w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
+                          <img src="/stingray-back.webp" alt="Stingray 72 Dorso" className="w-full h-full object-contain select-none rounded-xl" />
                         </div>
                       </div>
                     </div>
@@ -1068,7 +1068,7 @@ export default function QBHome() {
                 </p>
 
                 <p className="text-sm md:text-base text-zinc-300 leading-relaxed font-light">
-                  Hasta el día de hoy, Jim mantiene una fascinación constante por la hidrodinámica. A lo largo de los años, Jim ha participado activamente en investigaciones sobre la mecánica de las palas, utilizando técnicas como la fotografía subacuática de alta velocidad y el análisis de fuerzas mediante galgas extensométricas. También cuenta con una amplia experiencia en distintas aplicaciones de materiales compuestos, incluyendo las industrias aeroespacial y del automovilismo deportivo.
+                  Hasta el día de hoy, Jim mantiene una fascinación constante por la hidrodinámica. A lo largo de los años, Jim ha participado activamente en investigaciones sobre la mecánica de las palas, utilizando técnicas como la fotografía subacuática de alta velocidad y el análisis de fuerzas mediante galgas extensométricas. También cuenta con una amplia experiencia en distintas aplicaciones de materiales compuestos, incluyendo las industrias aeroespacial y del automosilismo deportivo.
                 </p>
 
                 <div className="p-4 bg-zinc-900/90 border-l-4 border-amber-500 rounded-r-2xl my-2">
