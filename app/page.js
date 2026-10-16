@@ -401,14 +401,14 @@ export default function QBHome() {
                       <div className="flex flex-col items-center">
                         <span className="text-[9px] font-black uppercase tracking-widest text-red-400 mb-2 select-none">FRENTE</span>
                         <div className="w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
-                          <img src="/vdrive-front.webp" alt="V-Drive All Carbon Frente" className="w-full h-full object-contain select-none rounded-xl" />
+                          <img src="/vdrive-front.jpeg" alt="V-Drive All Carbon Frente" className="w-full h-full object-contain select-none rounded-xl" />
                         </div>
                       </div>
 
                       <div className="flex flex-col items-center">
                         <span className="text-[9px] font-black uppercase tracking-widest text-red-400 mb-2 select-none">COMPLETO</span>
                         <div className="w-full max-w-[180px] aspect-[1/2] rounded-2xl overflow-hidden flex items-center justify-center bg-white p-2 border border-zinc-800 shadow-inner">
-                          <img src="/vdrive-back.webp" alt="V-Drive All Carbon Completo" className="w-full h-full object-contain select-none rounded-xl" />
+                          <img src="/vdrive-back.jpeg" alt="V-Drive All Carbon Completo" className="w-full h-full object-contain select-none rounded-xl" />
                         </div>
                       </div>
                     </div>
@@ -1068,7 +1068,7 @@ export default function QBHome() {
                 </p>
 
                 <p className="text-sm md:text-base text-zinc-300 leading-relaxed font-light">
-                  Hasta el día de hoy, Jim mantiene una fascinación constante por la hidrodinámica. A lo largo de los años, Jim ha participado activamente en investigaciones sobre la mecánica de las palas, utilizando técnicas como la fotografía subacuática de alta velocidad y el análisis de fuerzas mediante galgas extensométricas. También cuenta con una amplia experiencia en distintas aplicaciones de materiales compuestos, incluyendo las industrias aeroespacial y del automosilismo deportivo.
+                  Hasta el día de hoy, Jim mantiene una fascinación constante por la hidrodinámica. A lo largo de los años, Jim ha participado activamente en investigaciones sobre la mecánica de las palas, utilizando técnicas como la fotografía subacuática de alta velocidad y el análisis de fuerzas mediante galgas extensométricas. También cuenta con una amplia experiencia en distintas aplicaciones de materiales compuestos, incluyendo las industrias aeroespacial y del automovilismo deportivo.
                 </p>
 
                 <div className="p-4 bg-zinc-900/90 border-l-4 border-amber-500 rounded-r-2xl my-2">
